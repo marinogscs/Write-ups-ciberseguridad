@@ -1,3 +1,5 @@
+## Caso Web Strike
+
 >En el servidor web de una empresa se detectó un archivo sospechoso, lo que activó las alarmas en la intranet. Se sospecha de una posible actividad maliciosa. El equipo de redes hizo una captura del trafico de red y preparo un archivo PCAP para revisarlo.
 >
 >La tarea consiste en analizar el Archivo PCAP para descubrir como aparecio el archivo y determinar el alcance de cualquier actividad no autorizada
@@ -15,7 +17,7 @@
 
 >Como vemos la IP se encuentra en China específicamente en Tianjin
 
-# Q2/ Cuál es el agente del usuario completo?
+### Q2/ Cuál es el agente del usuario completo?
 
 >En uno de los request que el atacante hizo específicamente uno con protocolo HTTP nos da información sobre el user-agent.
 >
