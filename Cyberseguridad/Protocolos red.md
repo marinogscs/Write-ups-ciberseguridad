@@ -1,8 +1,0 @@
-### LLMNR (Resolución de nombres de multifusión local de enlace)
-
->Un protocolo utilizado por los sistemas Windows para la resolición de nombres cuando fallan las búsquedas DNS estándar. Opera tanto en IPv6 como en IPv4. Cuando una computadora necesita resolver un nombre de host de un dispositivo en la res local, envía una consulta LLMNR a la direccioón del grupo de multidifusión. La consulta transmite a todos los dispositivos en la res, preguntando si conocen la direccioón IP asociada con el nombre de host solicitado. Si un dispositivo reconoce el nombre del host y tiene la dirección IP, reponde directamente al dispositivo que realiza la consulta con la información de la dirección IP. Esta respuesta direccta evita la necesidad de un servidor DNS cuando está inactivo.
- 
-
-### NBT-NS (Servicio de nombres NetBIOS):
-
->Se usa para resolver nombres NETBIOS en direcciones IP. NETBIOS es una API desarrollada por IBM que permite que las aplicaciones en diferentes computadoras se comuniquen a través de una LAN. NBT-NS maneja específicamente el aspecto de resolución de nombres de NetBIOS. NBT-NS opera a través de mensajes de difusión dentro de una LAN. Cuando una computadora necesita resolver un nombre de NetBIOS en una dirección IP, envía un mensaje de difusión a todas las computadoreas en la red local. La computadora que ha resgistrado el nombre en NetBIOS solicitado responde con su dirección IP correspondiente
