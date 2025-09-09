@@ -10,17 +10,17 @@ Posteriormente, la solución SIEM generó una alerta sobre la descarga de un arc
 >
 >Cuando ingresamos el hash que se nos proporcionó y lo busquemos en **¨Virustotal.com"** encontramos la creación de éste en el apartado de details y history.
 
-![Captura1](Cyberseguridad/Write-ups/Lab_2%20Oski/Capturas/Captura1.png)
+![Captura1](./Capturas/Captura1.png)
 ### Q2/ Identificar el servidor de comando y control (C2) con el que se comunica el malware puede ayudar a rastrear al atacante. ¿Con qué servidor C2 se comunica el malware del archivo PPT?
 
 >Como sabemos un C2 o servidor de comando y control se usa para que el atacante controle remotamente la máquina victima, para encontrarlo buscamos el apartado Relations en **"Virustotal.com"** y Bajamos hasta la parte que dice Contacted URls y ahí encontramos el servidor C2 en el que se comunica el malware.
 
-![Captura2](Cyberseguridad/Write-ups/Lab_2%20Oski/Capturas/Captura2.png)
+![Captura2](./Capturas/Captura2.png)
 ### Q3/ Identificar las acciones iniciales del malware tras la infección puede proporcionar información sobre sus objetivos principales. ¿Cuál es la primera biblioteca que solicita el malware tras la infección?
 
 >Para encontrar la primera biblioteca solicitada por el malware accedemos al apartado Behavior de **"Virutotal.com"** y bajamos hasta la parte que dice "Files dropped¨.
 
-![Captura3](Cyberseguridad/Write-ups/Lab_2%20Oski/Capturas/Captura3.png)
+![Captura3](./Capturas/Captura3.png)
 
 >Una vez ahí nos damos cuenta que el primer archivo que solicitó el malware fue **sqlite3.dll**, esto puede ser para robar datos a traves de SQL o para exfiltración de cookies y credenciales.
 
@@ -28,21 +28,21 @@ Posteriormente, la solución SIEM generó una alerta sobre la descarga de un arc
 
 >Ahora para encotrar la clave RC4 usaré una herramienta llamada **ANY.RUN**. Una vez que coloquemos el hash y estemos en el reporte de él, bajamos hasta la parte que dice Malware configuration donde encontramos la clave **RC4**.
 
-![Captura4](Cyberseguridad/Write-ups/Lab_2%20Oski/Capturas/Captura4.png)
+![Captura4](./Capturas/Captura4.png)
 ### Q5/ Al examinar las técnicas MITRE ATT&CK que aparecen en el informe del entorno de pruebas Any.run, identifique la técnica MITRE principal (no las subtécnicas) que utiliza el malware para robar la contraseña del usuario.
 
 >Para resolver esta pregunta uso nuevamente la herramienta Any.run,
 >ahora accediendo a la parte ATT&CK.
 
-![Captura5](Cyberseguridad/Write-ups/Lab_2%20Oski/Capturas/Captura5.png)
+![Captura5](./Capturas/Captura5.png)
 
 >luego de acceder al apartado ATT&CK no saldrá una nueva ventana llamada **MITRE ATT&CK Matrix** donde daremos click en **Credentials from Password Stores (1/6)**.
 
-![Captura6](Cyberseguridad/Write-ups/Lab_2%20Oski/Capturas/Captura6.png)
+![Captura6](./Capturas/Captura6.png)
 
 Una vez ahí nos saldrá el nombre de la técnica MITRE ATT&CK usada para robar la contraseña del usuario.
 
-![Captura7](Cyberseguridad/Write-ups/Lab_2%20Oski/Capturas/Captura7.png)
+![Captura7](./Capturas/Captura7.png)
 
 Como vemos la tecnica usada fue **T1555**.
 
@@ -50,7 +50,7 @@ Como vemos la tecnica usada fue **T1555**.
 
 >Después del atacante robar las credenciales y acceder al sistema como admin ejecuta unos comandos en cmd uno de ellos nos revela el directorio objetivo a eliminar.
 
-![Captura8](Cyberseguridad/Write-ups/Lab_2%20Oski/Capturas/Captura8.png)
+![Captura8](./Capturas/Captura8.png)
 
 >Cuando revisamos el proceso logramos ver que el comando ejecuta un del C:\ProgramData\*.dll lo que hace que el sistema elimine los archivos .dll
 
@@ -58,10 +58,10 @@ Como vemos la tecnica usada fue **T1555**.
 
 >Para saber cuanto tardó el malware en autodestruirse debemos acceder a la parte llamada **timeout** en la pagina de any.run donde estamos analizando el malware.
 
-![Captura9.png](Cyberseguridad/Write-ups/Lab_2%20Oski/Capturas/Captura9.png)
+![Captura9.png](./Capturas/Captura9.png)
 
 >Justo ahí al lado de timeout.exe vemos t5 lo que significa que el malware tardó en destruirse en 5 segundos
 
-![Captura10](Cyberseguridad/Write-ups/Lab_2%20Oski/Capturas/Captura10.png)
+![Captura10](./Capturas/Captura10.png)
 
 Siguiente Write-up: [[Lab_3 PoisonedCredentials]]
