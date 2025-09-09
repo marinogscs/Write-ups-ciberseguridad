@@ -26,23 +26,23 @@
 
 >Para encontrar cuando fue visto por primera vez este malware debemos estar en el apartado de detalles, en la parte en que antes estuvimos, llamada history, ahí encontraremos first submission donde estará nuestra respuesta.
 
-![Captura4](Capturas/Captura4.png)
+![Captura4](Cyberseguridad/Write-ups/Lab_4%20Yellow%20Rat/Capturas/Captura4.png)
 
 ### Q5/ Para erradicar por completo la amenaza de los sistemas de Industries, necesitamos identificar todos los componentes que ha instalado el malware. ¿Cuál es el nombre del archivo .dat que el malware ha instalado en la carpeta AppData?
 
 >Para saber que archivo .dat se instala necesitamos buscar el malware de Yellow Cockatoo en internet y en la página de redcanary se nos proporciona la información que necesitamos.
 
-![Captura5](Capturas/Captura5.png)
+![Captura5](Cyberseguridad/Write-ups/Lab_4%20Yellow%20Rat/Capturas/Captura5.png)
 
 ### Q6/ Es fundamental identificar los servidores C2 con los que se comunica el malware para bloquear su comunicación y evitar una mayor filtración de datos. ¿Cuál es el servidor C2 con el que se comunica el malware?
 
 >Para encontrar el servidor C2 con el que se comunica el malware debemos ir al apartado de behavior y bajamos hasta donde dice memory pattern Urls.
 
-![Captura7](Capturas/Captura7.png)
+![Captura7](Cyberseguridad/Write-ups/Lab_4%20Yellow%20Rat/Capturas/Captura7.png)
 
 
 
 
-![Captura6](Capturas/Captura6.png)
+![Captura6](Cyberseguridad/Write-ups/Lab_4%20Yellow%20Rat/Capturas/Captura6.png)
 
 Siguiente Write-up: [[Lab_5 Lespion]]

@@ -50,7 +50,7 @@ Como vemos la tecnica usada fue **T1555**.
 
 >Después del atacante robar las credenciales y acceder al sistema como admin ejecuta unos comandos en cmd uno de ellos nos revela el directorio objetivo a eliminar.
 
-![Captura8](Capturas/Captura8.png)
+![Captura8](Cyberseguridad/Write-ups/Lab_2%20Oski/Capturas/Captura8.png)
 
 >Cuando revisamos el proceso logramos ver que el comando ejecuta un del C:\ProgramData\*.dll lo que hace que el sistema elimine los archivos .dll
 
@@ -58,10 +58,10 @@ Como vemos la tecnica usada fue **T1555**.
 
 >Para saber cuanto tardó el malware en autodestruirse debemos acceder a la parte llamada **timeout** en la pagina de any.run donde estamos analizando el malware.
 
-![Captura9.png](Capturas/Captura9.png)
+![Captura9.png](Cyberseguridad/Write-ups/Lab_2%20Oski/Capturas/Captura9.png)
 
 >Justo ahí al lado de timeout.exe vemos t5 lo que significa que el malware tardó en destruirse en 5 segundos
 
-![Captura10](Capturas/Captura10.png)
+![Captura10](Cyberseguridad/Write-ups/Lab_2%20Oski/Capturas/Captura10.png)
 
 Siguiente Write-up: [[Lab_3 PoisonedCredentials]]
