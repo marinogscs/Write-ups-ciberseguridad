@@ -9,3 +9,5 @@
 - [[Lab_3 PoisonedCredentials]]
 - [[Lab_4 Yellow Rat]]
 - [[Lab_5 Lespion]]
+- [[Lab_6 Red Stealer]]
+- [[Lab_7 Intel101]]

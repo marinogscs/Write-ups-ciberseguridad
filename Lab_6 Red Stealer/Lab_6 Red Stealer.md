@@ -63,3 +63,5 @@ eficiente a este comportamiento sospechoso.
 
 
 ![Captura10](./Capturas/Captura10.png)
+
+Siguiente Write-up: [[Lab_7 Intel101]]

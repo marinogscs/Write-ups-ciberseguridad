@@ -1,6 +1,6 @@
 ## Caso PoisonedCredentials
 
->El equipo de seguridad de su organización a detectado un aumento en la actividad sospechosa de la red. Existe la preocupación de que se estén produciendo ataques de envenenamiento [[Cyberseguridad/Protocolos red#LLMNR (Resolución de nombres de multifusión local de enlace)|LLMNR]] (Link-Local Multicast Name Resolution) y [[Cyberseguridad/Protocolos red#NBT-NS (Servicio de nombres NetBIOS)|NBT-NS]] (NetBIOS Name Service) dentro de su red. Estos ataques son conocidos por aprovechar estos protocolos para interceptar el tráfico  de red y comprometer potencialmente las credenciales de los ususarios. Su tareas consiste en investigar los registros de red y examinar el tráfico de red capturado.
+>El equipo de seguridad de su organización a detectado un aumento en la actividad sospechosa de la red. Existe la preocupación de que se estén produciendo ataques de envenenamiento LLMNR (Link-Local Multicast Name Resolution) y NBT-NS (NetBIOS Name Service) dentro de su red. Estos ataques son conocidos por aprovechar estos protocolos para interceptar el tráfico  de red y comprometer potencialmente las credenciales de los ususarios. Su tareas consiste en investigar los registros de red y examinar el tráfico de red capturado.
 
 
 ### Q1/ En el contexto del incidente descrito en el escenario, el atacante inició sus acciones aprovechando el tráfico de red benigno de máquinas legítimas. ¿Puede identificar la consulta mal escrita específica realizada por la máquina con la dirección IP 192.168.232.162?

@@ -76,3 +76,6 @@
 
 
 ![Captura12](./Capturas/Captura12.png)
+
+
+Siguiente Write-up: [[Lab_6 Red Stealer]]
