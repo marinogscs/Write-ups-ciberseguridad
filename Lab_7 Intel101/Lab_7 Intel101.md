@@ -5,7 +5,7 @@
 
 ### Q1/ ¿Quién es el registrador de jameskainth.com?
 
->Para resolver esta pregunta haremos uso de la herramienta [[Who is]] que la podemos buscar en el navegador, esta nos da información de direcciones IP o los dominios que introduzcamos, en este caso ponemos **jameskainth.com** que es la página de la cual se nos pide su registrador. Una vez en la página y puesto el dominio de la página web podremos observar que el nombre de del registrador es **NameCheap** 
+>Para resolver esta pregunta haremos uso de la herramienta [[Who is]] que la podemos buscar en el navegador, esta nos da información de direcciones [[IP]] o los dominios que introduzcamos, en este caso ponemos **jameskainth.com** que es la página de la cual se nos pide su registrador. Una vez en la página y puesto el dominio de la página web podremos observar que el nombre de del registrador es **NameCheap** 
 
 ![Captura1](./Capturas/Captura1.png)
 
@@ -17,7 +17,7 @@
 
 ### Q3/ En 1998, concretamente el 12 de febrero, Champlain tenía previsto añadir un nuevo y emocionante edificio a su campus. En aquel entonces, se llamaba «The Information Commons». ¿Puedes encontrar una imagen de cómo sería el interior? Envía el [[hash]] [[SHA256]].
 
->Para encontrar la imagen del edificio del campus por dentro debemos usar una herramienta llamada [[Wayback Machine]] la que nos dará acceso a como era la página el 12 de febrero de 1998 con esta informacion de la página podremos encontrar la imagen, después cuando la tengamos le hacemos un **sha256sum** para que nos la convierta en sha256 lo que nos genera **f4952b314eb15acf0eec79c954f83881c17d50d2b5922ee37e8fc5e5cd1aeac2**
+>Para encontrar la imagen del edificio del campus por dentro debemos usar una herramienta llamada [[Wayback Machine]] la que nos dará acceso a como era la página el 12 de febrero de 1998 con esta informacion de la página podremos encontrar la imagen, después cuando la tengamos le hacemos un **sha256sum** para que nos la convierta en [[SHA256]] lo que nos genera **f4952b314eb15acf0eec79c954f83881c17d50d2b5922ee37e8fc5e5cd1aeac2**
 
 ![Captura3](./Capturas/Captura3.png)
 
@@ -39,3 +39,5 @@
 
 
 ![Captura7](./Capturas/Captura7.png)
+
+Siguiente Write-up: [[Lab_8 3CX Supply Chain]]

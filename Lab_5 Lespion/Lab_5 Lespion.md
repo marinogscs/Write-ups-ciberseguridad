@@ -1,7 +1,7 @@
 ## Caso Lespion
 
->Un cliente cuya red ha sido comprometida y desconectada le ha encargado investigar el incidente y determinar la identidad del atacante.
->Los responsables de la respuesta ante incidentes y los investigadores forenses digitales se encuentran actualmente en el lugar y han llevado a cabo una investigación preliminar. Sus conclusiones indican que el ataque se originó en una sola cuenta de usuario, probablemente de alguien interno. Investigue el incidente, encuentre el responsable interno y descubrta las acciones del ataque.
+>Un cliente cuya [[red]] ha sido comprometida y desconectada le ha encargado investigar el incidente y determinar la identidad del atacante.
+>Los responsables de la respuesta ante incidentes y los investigadores forenses digitales se encuentran actualmente en el lugar y han llevado a cabo una investigación preliminar. Sus conclusiones indican que el ataque se originó en una sola cuenta de usuario, probablemente de alguien interno. Investigue el incidente, encuentre el responsable interno y descubra las acciones del ataque.
 
 
 ### Q1/ Archivo -> Github.txt: ¿Qué clave API añadió el informante a sus repositorios de GitHub?
@@ -16,7 +16,7 @@
 
 ![Captura2](./Capturas/Captura2.png)
 
->Pero como vemos hay un problema la contraseña no está en texto plano sino que está codificada en Base64 por lo que vamos a usar la herramienta CyberChef para que nos ayude en decodificar y conseguir el texto plano de la contraseña.
+>Pero como vemos hay un problema la contraseña no está en texto plano sino que está codificada en Base64 por lo que vamos a usar la herramienta [[CyberChef]] para que nos ayude en decodificar y conseguir el texto plano de la contraseña.
 
 ![Captura3](./Capturas/Captura3.png)
 
@@ -61,7 +61,7 @@
 ![Captura10](./Capturas/Captura10.png)
 
 
-### Q9/ Archivo -> Webcam.png: Con la información que nos has proporcionado, nuestra unidad de vigilancia terrestre está vigilando la dirección sospechosa de la persona de interés. La vieron salir de su apartamento y la siguieron hasta el aeropuerto. Su avión despegó y aterrizó en otro país. Nuestro equipo de inteligencia localizó al objetivo con esta cámara IP. ¿En qué estado se encuentra esta cámara?
+### Q9/ Archivo -> Webcam.png: Con la información que nos has proporcionado, nuestra unidad de vigilancia terrestre está vigilando la dirección sospechosa de la persona de interés. La vieron salir de su apartamento y la siguieron hasta el aeropuerto. Su avión despegó y aterrizó en otro país. Nuestro equipo de inteligencia localizó al objetivo con esta cámara [[IP]]. ¿En qué estado se encuentra esta cámara?
 
 >Para saber cual es el lugar que está en la imagen de la cámara IP que nos pasó el equipo de inteligencia usamos la búsqueda por imagen al hacerlo nos damos cuenta que el lugar es la universidad de Notre Dame la cual se encuentra ubicada en el estado de Indiana.
 

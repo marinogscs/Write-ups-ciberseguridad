@@ -11,3 +11,5 @@
 - [[Lab_5 Lespion]]
 - [[Lab_6 Red Stealer]]
 - [[Lab_7 Intel101]]
+- [[Lab_8 3CX Supply Chain]]
+- [[lab_9 PsExec Hunt]]
