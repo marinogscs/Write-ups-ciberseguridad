@@ -44,3 +44,6 @@
 ![Captura7](./Capturas/Captura7.png)
 
 ![Captura8](./Capturas/Captura8.png)
+
+
+Siguiente Write-up: [[Lab_10 IcedID]]
