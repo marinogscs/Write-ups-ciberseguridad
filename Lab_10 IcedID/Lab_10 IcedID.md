@@ -41,3 +41,5 @@
 
 
 ![Captura7](Cyberseguridad/Write-ups/Lab_10%20IcedID/Capturas/Captura7.png)
+
+Siguiente Write-up: [[Lab_11 FakeGPT]]

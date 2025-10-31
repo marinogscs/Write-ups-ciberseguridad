@@ -4,13 +4,14 @@
 
 ## Índice de write-ups
 
-- [[Lab_1 Web Strike]]
-- [[Lab_2 Oski]]
-- [[Lab_3 PoisonedCredentials]]
-- [[Lab_4 Yellow Rat]]
-- [[Lab_5 Lespion]]
-- [[Lab_6 Red Stealer]]
-- [[Lab_7 Intel101]]
-- [[Lab_8 3CX Supply Chain]]
-- [[lab_9 PsExec Hunt]]
+- [[Lab_01 Web Strike]]
+- [[Lab_02 Oski]]
+- [[Lab_03 PoisonedCredentials]]
+- [[Lab_04 Yellow Rat]]
+- [[Lab_05 Lespion]]
+- [[Lab_06 Red Stealer]]
+- [[Lab_07 Intel101]]
+- [[Lab_08 3CX Supply Chain]]
+- [[lab_09 PsExec Hunt]]
 - [[Lab_10 IcedID]]
+- [[Lab_11 FakeGPT]]
